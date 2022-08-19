@@ -6,6 +6,7 @@ import { AboutUs } from "./components/AboutUs";
 import { LoginPage } from "./components/LoginPage";
 import { RecipeCard } from "./components/RecipeCard";
 import { SignUpPage } from "./components/SignUpPage";
+import { Footer } from "./components/Footer";
 
 function App() {
   return <Nav></Nav>;
