@@ -9,7 +9,12 @@ import { SignUpPage } from "./components/SignUpPage";
 import { Footer } from "./components/Footer";
 
 function App() {
-  return <Nav></Nav>;
+  return (
+    <>
+      <Nav />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
