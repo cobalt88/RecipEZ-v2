@@ -1,20 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Nav } from "./components/Nav";
-import { LandingPage } from "./components/LandingPage";
-import { AboutUs } from "./components/AboutUs";
-import { LoginPage } from "./components/LoginPage";
-import { RecipeCard } from "./components/RecipeCard";
-import { SignUpPage } from "./components/SignUpPage";
-import { Footer } from "./components/Footer";
+import { Nav } from "./components/nav/nav";
+import { LandingPage } from "./components/landingPage/LandingPage";
+import { AboutUs } from "./components/aboutUs/aboutUs";
+import { LoginPage } from "./components/loginPage/login";
+import { RecipeCard } from "./components/recipeCard/recipeCard";
+import { SignUpPage } from "./components/SignUpPage/SignUpPage";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
-  return (
-    <>
-      <Nav />
-      <Footer />
-    </>
-  );
+  return <></>;
 }
 
 export default App;

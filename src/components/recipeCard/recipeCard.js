@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function RecipeCard() {
-  return <></>;
+  return (
+    <>
+      <div>insert recipe card here</div>
+    </>
+  );
 }

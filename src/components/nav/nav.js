@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Nav() {
-  return <></>;
+  return (
+    <>
+      <div>Nav goes here</div>
+    </>
+  );
 }
