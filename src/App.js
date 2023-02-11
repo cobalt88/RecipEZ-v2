@@ -12,3 +12,8 @@ function App() {
 }
 
 export default App;
+
+const call = async () => {};
+
+const response = await fetch("http://localhost:3000/api/users", { options });
+const data = await response.json();
