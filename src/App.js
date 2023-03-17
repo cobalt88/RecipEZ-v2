@@ -1,19 +1,23 @@
 import "./App.css";
-import { Nav } from "./components/nav/nav";
-import { LandingPage } from "./components/landingPage/LandingPage";
-import { AboutUs } from "./components/aboutUs/aboutUs";
-import { LoginPage } from "./components/loginPage/login";
-import { RecipeCard } from "./components/recipeCard/recipeCard";
+import { Nav } from "./components/nav/Nav";
+import { LandingPage } from "./components/LandingPage/LandingPage";
+import { AboutUs } from "./components/aboutUs/AboutUs";
+import { LoginPage } from "./components/loginPage/Login";
+import { RecipeCard } from "./components/recipeCard/RecipeCard";
 import { SignUpPage } from "./components/SignUpPage/SignUpPage";
 import { Footer } from "./components/Footer/Footer";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <LandingPage />
+    </>
+  );
 }
 
 export default App;
 
 const call = async () => {};
 
-const response = await fetch("http://localhost:3000/api/users", { options });
-const data = await response.json();
+// const response = await fetch("http://localhost:3000/api/users", { options });
+// const data = await response.json();
